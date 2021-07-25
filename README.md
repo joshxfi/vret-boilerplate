@@ -1,6 +1,6 @@
 # Vret Boilerplate ⚡
 Vret stands for [Vite](https://github.com/vitejs/vite), [React](https://github.com/microsoft/TypeScript), [Emotion](https://github.com/emotion-js/emotion), [TypeScript](https://github.com/microsoft/TypeScript).
-> it's fast! 🏃‍♂️
+> It's fast & faster than create-react-app! 🏃‍♂️
 
 ## Installation
 Choose an option:
@@ -17,3 +17,20 @@ npm install or npm i
 # for yarn
 yarn install or yarn
 ```
+* Reinitialize the git repository (*optional*).
+```shell
+# this will remove the existing remote
+rm -rf .git
+
+# initialize an empty git repository
+git init
+```
+
+## Features
+* MIT license.
+* Removed CSS files.
+* Added types.d.ts file.
+* Added components folder.
+* Removed unnecessary files.
+* Imported emotion in App.tsx.
+* Added \<Global /> in App.tsx.
