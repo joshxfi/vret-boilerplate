@@ -15,9 +15,12 @@ const App: React.FC = () => {
       </a>
       <Global
         styles={css`
+          @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
           * {
             margin: 0;
             padding: 0;
+            font-family: 'Noto Sans JP', sans-serif;
           }
 
           a {

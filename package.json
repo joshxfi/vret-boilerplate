@@ -1,6 +1,7 @@
 {
-  "name": "vret-boilerplate",
-  "version": "1.0.0",
+  "name": "vret",
+  "version": "1.0.1",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
