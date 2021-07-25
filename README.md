@@ -13,9 +13,11 @@ Choose an option:
 ```shell
 # for npm
 npm install or npm i
+npm run dev
 
 # for yarn
 yarn install or yarn
+yarn dev
 ```
 * Reinitialize the git repository (*optional*).
 ```shell
