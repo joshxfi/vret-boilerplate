@@ -393,6 +393,13 @@ convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
+css-maid@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/css-maid/-/css-maid-1.0.5.tgz#99dd4e91e3f229e9888196e3a743c926ba1fb417"
+  integrity sha512-IsOYkn1foJWb9g+bx3ZO31JH6m52YNIiwF5/AHq+tnA96KNnVxFnJgQIxikeODvsB0F6mLUbob1syHbUZ02gRw==
+  dependencies:
+    "@emotion/react" "^11.4.0"
+
 csstype@^3.0.2:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"

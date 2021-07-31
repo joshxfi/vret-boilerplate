@@ -1,30 +1,24 @@
 /** @jsx jsx */
-import React from 'react';
-import { css, jsx, Global } from '@emotion/react';
+import React from "react";
+import { css, jsx, Global } from "@emotion/react";
+import Maid from "css-maid";
 
 const App: React.FC = () => {
   return (
     <div>
       <h1>Vret Boilerplate⚡</h1>
       <a
-        href="https://github.com/joshxfi/vret-boilerplate"
-        target="_blank"
-        rel="noreferrer"
+        href='https://github.com/joshxfi/vret-boilerplate'
+        target='_blank'
+        rel='noreferrer'
       >
         star this repo!
       </a>
       <Global
         styles={css`
-          @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
-
-          * {
-            margin: 0;
-            padding: 0;
-            font-family: 'Noto Sans JP', sans-serif;
-          }
+          @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
 
           a {
-            text-decoration: none;
             color: lime;
           }
 
@@ -38,6 +32,7 @@ const App: React.FC = () => {
           }
         `}
       />
+      <Maid />
     </div>
   );
 };
