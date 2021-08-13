@@ -39,10 +39,9 @@ git init
 ```
 
 ## Features
-* MIT license.
 * Removed CSS files.
+* CSS Reset (*CSS-Maid*)
+* Reusable media queries.
 * Added types.d.ts file.
 * Added components folder.
-* Removed unnecessary files.
-* Imported emotion in App.tsx.
 * Added \<Global /> in App.tsx.
