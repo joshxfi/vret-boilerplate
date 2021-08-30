@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import React from "react";
-import { css, jsx, Global } from "@emotion/react";
-import mq from "./config/breakpoints";
-import "css-maid";
+import React from 'react'
+import { css, jsx, Global } from '@emotion/react'
+import mq from './config/breakpoints'
+import 'css-maid'
 
 const App: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const App: React.FC = () => {
       </a>
       <Global
         styles={css`
-          @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap");
+          @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
 
           a {
             color: lime;
@@ -56,7 +56,7 @@ const App: React.FC = () => {
         `}
       />
     </div>
-  );
-};
+  )
+}
 
 export default App;
